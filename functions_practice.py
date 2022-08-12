@@ -1,0 +1,34 @@
+# A function named hello() 
+
+def hello():
+  print("Hello, user!")
+  
+  hello()
+
+
+
+# A function named pack()
+  def pack(one,two,three):
+  return [one,two,three]
+
+
+  # A function called eat_lunch().
+
+def eat_lunch(my_lst):
+  if len(my_lst) == 0:
+    print("My lunchbox is empty!")
+  else:
+    for i in range(len(my_lst)):
+      if i == 0:
+        print(f"First I eat {my_lst[0]}")
+      else:
+        print(f"Next I eat {my_lst[i]}")
+
+
+
+
+        hello()
+print(pack(one, two, three))
+eat_lunch([])
+eat_lunch(["banana"])
+eat_lunch(["apple","string cheese","yogurt","brownie"])
